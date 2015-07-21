@@ -20,4 +20,5 @@ from yyzq.views import *
 urlpatterns = [
     url(r'^$', index),
     url(r'^admin/', include(admin.site.urls)),
+    
 ]
