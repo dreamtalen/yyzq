@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>CSS固定定位</title>
+    <script src="js/category_list.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+ <style type="text/css">
+
+
+  html {
+   width: 100%;;
+  }
+
+  body {
+   margin:0px auto;
+   width: 100%;
+  }
+
+  #fixedLayer {
+   position:fixed;
+   left: 0rem;
+   top: 0rem;
+   width:100%;
+   line-height:4rem;
+   background: rgba(244,59,59,.9);
+   border:1px solid #F90;
+  }
+
+  .choose-item{
+      font-size: 2rem;
+      color: white;
+      text-align: center;
+      border-radius: 14px;
+      position: relative;
+      float: left;
+      margin-right: 1rem;
+  }
+
+  .box {
+      display: -webkit-box;
+      -webkit-box-pack: start;
+      -webkit-box-orient: horizontal;
+      -webkit-box-align: center;
+  }
+
+  #filter-container {
+      position:fixed;
+      left: 0rem;
+      top: 0rem;
+      height: 3.95rem;
+      line-height: 4.95rem;
+      border-bottom: 1px solid #e3e3e3;
+      overflow-x: auto;
+      overflow-y: hidden;
+      width: 100%;
+      background-color: rgba(244,59,59,.9);
+      z-index: 9999;
+  }
+
+  .day {
+      width: 5rem;
+      height: 100%;
+      text-align: center;
+      font-size: 1.5rem;
+      position: relative;
+      color: #666;
+      display: block;
+      top: -1rem;
+      height: 3rem;
+      line-height: 3rem
+  }
+
+  .day[choose='true'] {
+      background-color: #d73c3c;
+      color: #fff;
+      height: 3rem;
+      line-height: 3rem;
+      border-radius: 4rem;
+  }
+
+ </style>
+</head>
+<body>
+    <div class="box" id="filter-container">
+        <p class="day" id="art" choose="true" >艺术</p>
+        <p class="day" id="cars">汽车</p>
+        <p class="day" id="comic">动漫</p>
+        <p class="day" id="game">游戏</p>
+        <p class="day" id="health">健康</p>
+        <p class="day" id="IT">IT</p>
+        <p class="day" id="music">音乐</p>
+        <p class="day" id="photo">摄影</p>
+        <p class="day" id="science">科学</p>
+        <p class="day" id="finance">财经</p>
+        <p class="day" id="sports">体育</p>
+        <p class="day" id="trip">旅游</p>
+    </div>
+
+    </body>
+</html> 

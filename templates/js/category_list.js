@@ -1,0 +1,42 @@
+/**
+ * Created by º½ on 2015/7/12.
+ */
+$(document).ready(function(){
+    $("#art").click(function(){
+        window.location.href='article_list_art.html';
+    });
+    $("#cars").click(function(){
+        window.location.href='article_list_cars.html';
+    });
+    $("#comic").click(function(){
+        window.location.href='article_list_comic.html';
+    });
+    $("#game").click(function(){
+        window.location.href='article_list_game.html';
+    });
+    $("#health").click(function(){
+        window.location.href='article_list_health.html';
+    });
+    $("#IT").click(function(){
+        window.location.href='article_list_IT.html';
+    });
+    $("#music").click(function(){
+        window.location.href='article_list_music.html';
+    });
+    $("#photos").click(function(){
+        window.location.href='article_list_photos.html';
+    });
+    $("#science").click(function(){
+        window.location.href='article_list_science.html';
+    });
+    $("#finance").click(function(){
+        window.location.href='article_list_finance.html';
+    });
+    $("#sports").click(function(){
+        window.location.href='article_list_sports.html';
+    });
+    $("#trip").click(function(){
+        window.location.href='article_list_trip.html';
+    });
+
+});

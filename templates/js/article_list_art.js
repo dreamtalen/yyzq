@@ -1,0 +1,38 @@
+/**
+ * Created by º½ on 2015/7/12.
+ */
+$(document).ready(function(){
+    $("#article1").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206308178&amp;idx=2&amp;sn=46c64cedef31731c4927ff80fd7431ed&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article2").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206308178&amp;idx=1&amp;sn=2716bfbc5ca2f3914bc09f8eb4a402b7&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article3").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206308178&amp;idx=3&amp;sn=789851aed1a306d6ace385c2d2b19a81&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article4").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206210718&amp;idx=1&amp;sn=dcb547de15f12e3f89b4c05f39f5ab3e&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article5").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206210718&amp;idx=3&amp;sn=2eb76e06d14a81ed74dded45eee28526&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article6").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206210718&amp;idx=2&amp;sn=60366778bbccec43fe094cfd2ba1c699&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article7").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206175887&amp;idx=3&amp;sn=bc30a637e5f96c627af04ccb050c1678&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article8").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206175887&amp;idx=1&amp;sn=40635b83b388dcb31ab412ec5542290e&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article9").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206134405&amp;idx=2&amp;sn=2a99a218758a64128159595e7fd92451&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#article10").click(function(){
+        window.location.href='http://mp.weixin.qq.com/s?__biz=MjM5ODc5NjA3NQ==&amp;mid=206134405&amp;idx=3&amp;sn=c6341c0de7c8ce64b1798ab7182ad0e0&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd';
+    });
+    $("#index").click(function(){
+        window.location.href='index.html';
+    });
+});
